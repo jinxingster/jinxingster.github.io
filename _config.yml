@@ -1,0 +1,44 @@
+
+title: "Jin Xing"
+description: "GeoAI • Catastrophe Modelling • Remote Sensing • ESG analytics"
+url: "https://jinxingster.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: "Jin Xing"
+  avatar: "/assets/images/jin.jpg"
+  bio: "GeoAI scientist & catastrophe modeller. PhD (McGill). Manager, Advanced Analytics at TD Insurance."
+  location: "Toronto, Canada"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jinxingster@gmail.com"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=qGc3bcMAAAAJ"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jinxingster"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/jin-xing-mcgill/"
+
+defaults:
+  - scope: {path: "", type: posts}
+    values: {layout: single, author_profile: true, read_time: false, show_date: true}
+  - scope: {path: "", type: pages}
+    values: {layout: single, author_profile: true}
+
+collections:
+  posts:
+    output: true
+
+paginate: 5
