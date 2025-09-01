@@ -1,6 +1,6 @@
 
 title: "Jin Xing"
-description: "GeoAI • Catastrophe Modelling • Remote Sensing • ESG analytics"
+description: "GeoAI • Catastrophe Modelling • Remote Sensing • ESG analytics • GeoAI"
 url: "https://jinxingster.github.io"
 baseurl: ""
 
@@ -15,7 +15,8 @@ plugins:
 author:
   name: "Jin Xing"
   avatar: "/assets/images/jin.jpg"
-  bio: "GeoAI scientist & catastrophe modeller. PhD (McGill). Manager, Advanced Analytics at TD Insurance."
+  bio: "GeoAI scientist & catastrophe modeller.
+  Manager, Advanced Analytics at TD Insurance."
   location: "Toronto, Canada"
   links:
     - label: "Email"
