@@ -16,7 +16,7 @@ author:
   name: "Jin Xing"
   avatar: "/assets/images/jin.jpg"
   bio: "GeoAI • Cat modelling • SAR • ESG analytics"
- links:
+  links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:jinxingster@gmail.com"
@@ -29,7 +29,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jin-xing-mcgill/"
-
 
 defaults:
   - scope: { path: "", type: posts }
