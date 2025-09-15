@@ -37,3 +37,7 @@ defaults:
     values: { layout: single, author_profile: true }
 
 
+# Include custom folders
+include:
+  - _pages
+
