@@ -40,4 +40,4 @@ collections:
   posts:
     output: true
 
-paginate: 5
+paginate: 0
