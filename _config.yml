@@ -36,8 +36,4 @@ defaults:
   - scope: { path: "", type: pages }
     values: { layout: single, author_profile: true }
 
-collections:
-  posts:
-    output: true
 
-paginate: 0
