@@ -41,3 +41,8 @@ defaults:
 include:
   - _pages
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
