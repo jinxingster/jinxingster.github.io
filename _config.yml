@@ -32,18 +32,10 @@ author:
 
 defaults:
   - scope: { path: "", type: posts }
-    values: { layout: single, author_profile: true, read_time: false, show_date: true }
+    values: { layout: single, author_profile: true }
   - scope: { path: "", type: pages }
     values: { layout: single, author_profile: true }
 
-collections:
-  posts:
-    output: true
-
-paginate: 5
-paginate_path: "/page:num/"
-
-# Include custom folders
 include:
   - _pages
 
